@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+.introduction {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  flex-wrap: wrap;
+  background-color: #fff;
+}
+
+.intro-text {
+  width: 600px;
+  height: 600px;
+  background-image: url('../assets/Introduction.png'); 
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: start;
+  ;
+}
+
+.intro-text {
+  max-width: 500px;
+  margin-left: 40px;
+}
+
+.intro-head{
+    margin-top: 20px;
+    height: 200px;
+    width: 100%;
+    
+}
+
+.intro-head h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  font-weight: 200;
+  color: black;
+}
+.intro-head h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: black
+}
+
+.intro-text p {
+  font-size: 1.2rem;
+  color: #555;
+}
